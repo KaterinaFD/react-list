@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import Carousel from './Carousel';
+import List from './List';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <div className="container">
+      <h1>Just Choose your ideal vacation</h1>
+    </div>
+    <div >
+      <Carousel/>
+      </div>
+      <div>
+      <List/>
+    </div>
     </div>
   );
 }
